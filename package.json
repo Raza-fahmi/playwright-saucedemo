@@ -1,0 +1,26 @@
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "description": "Playwright E2E Automation Testing for Swag Labs (SauceDemo) - HashMicro Technical Test QA Engineer",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation-testing",
+    "e2e",
+    "qa-engineer",
+    "hashmicro",
+    "javascript"
+  ],
+  "author": "Reza Fahmi Pahlevi",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
